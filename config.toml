@@ -1,0 +1,4 @@
+baseURL = "https://www.wuli.nu/"
+languageCode = "en-us"
+title = "Alex Newman's Webpage"
+theme = "ananke"
