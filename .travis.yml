@@ -4,7 +4,6 @@ before_install:
 
 install:
 - wget -O /tmp/hugo.deb https://github.com/gohugoio/hugo/releases/download/v0.52/hugo_0.52_Linux-64bit.deb
-- sudo apt update  --allow-unauthenticated && apt-get install -y xsel
 - sudo dpkg -i /tmp/hugo.deb
 script:
 - git submodule sync && git submodule update && hugo
