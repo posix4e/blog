@@ -7,5 +7,5 @@ install:
 - sudo apt update  --allow-unauthenticated && apt-get install -y xsel
 - sudo dpkg -i /tmp/hugo.deb
 script:
-- hugo
+- git submodule sync && git submodule update && hugo
 - bash deploy.sh
